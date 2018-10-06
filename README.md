@@ -1,1 +1,2 @@
 # PigLatinTranslator
+This console application takes a word from the user and translates it into Pig-Latin, then reads it back to the user.The application checks the word to see if it starts with a vowel. If the word starts with a vowel, "way" is added to the end of the word. If the word starts with a consonant, the application continues to check each character in the string (or letter in the word) until it finds a vowel. Each letter that comes before the vowel is added to the end of the word. After that, "ay" is added to the new string to complete the Pig-Latin translation.
